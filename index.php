@@ -23,7 +23,7 @@ file_put_contents($counterFile, $count);
 </head>
 <body>
 
-	<header class="header">
+	<header id="home" class="header">
 		<div class="container">
 
            <!--Header navigation-->
@@ -33,11 +33,10 @@ file_put_contents($counterFile, $count);
 
 			    <nav class="nav">
 				    <ul class="nav-list">
-					    <li class="nav-item"><a href="#!" class="nav-link active">Home</a></li>
-					    <li class="nav-item"><a href="#!" class="nav-link">Works</a></li>
-					    <li class="nav-item"><a href="#!" class="nav-link">Services</a></li>
-					    <li class="nav-item"><a href="#!" class="nav-link">About</a></li>
-					    <li class="nav-item"><a href="#!" class="nav-link">Contact</a></li>
+					    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+					    <li class="nav-item"><a href="#services" class="nav-link">Skills</a></li>
+					    <li class="nav-item"><a href="#portfolio" class="nav-link">Reviews</a></li>
+					    <li class="nav-item"><a href="#contacts" class="nav-link">Contact</a></li>
 				    </ul>
 			    </nav>
 		    </div>
@@ -55,7 +54,7 @@ file_put_contents($counterFile, $count);
 		</div>
 	</header>
 	
-	<section class="services">
+	<section id="services" class="services">
 		<div class="container">
 			<div class="services-row">
 				<div class="service-card">
@@ -83,7 +82,7 @@ file_put_contents($counterFile, $count);
 		</div>
 	</section>
 
-	<section class="portfolio">
+	<section id="portfolio" class="portfolio">
 		<div class="container">
 			<div class="portfolio-title">
 				<h2 class="title-1">Reviews</h2>
@@ -147,7 +146,7 @@ file_put_contents($counterFile, $count);
 			</div>	
 	</section>
 	
-	<footer class="contacts">
+	<footer id="contacts" class="contacts">
 		<div class="container">
 			<div class="contacts-title">
 				<h2 class="title1">Contacts</h2>
