@@ -1,16 +1,3 @@
-<?php
-$counterFile = 'counter.txt';
-
-if (!file_exists($counterFile)) {
-    file_put_contents($counterFile, '0');
-}
-
-$count = file_get_contents($counterFile);
-$count++;
-
-file_put_contents($counterFile, $count);
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -165,9 +152,5 @@ file_put_contents($counterFile, $count);
 			</div>
 		</div>
 	</footer>
-	<div>
-        <p>Total Visitors: <?php echo $count; ?></p>
-    </div>
-
 </body>
 </html>
